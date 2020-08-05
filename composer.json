@@ -7,6 +7,14 @@
             "email": "pedro.aos19@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Pantheion\\Utils\\": ""
+        }
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "ramsey/uuid": "^3.0@dev",
+        "icanboogie/inflector": "dev-master"
+    }
 }
